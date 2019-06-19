@@ -25,6 +25,10 @@ public class ToMap_ {
     public void give_KY_and_4_should_return_12() {
         assertThat(toMap.of("KY", 4)).isEqualTo(12);
     }
+    @Test
+    public void give_AL_and_7_should_return_7() {
+        assertThat(toMap.of("AL", 7)).isEqualTo(7);
+    }
 
     public static class ToMap {
         public double of(String state, int price) {
